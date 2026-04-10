@@ -18,9 +18,9 @@ library(kknn)
 library(ranger)
 ```
 
-# Train/test split
+# Example: mtcars
 
-Using mtcars
+Train/test split
 
 ```{r}
 
@@ -43,9 +43,9 @@ dat_train |>
 
 ```
 
-# Start: mtcars
-
 ## Recipe, model, workflow
+
+Start with linear regression
 
 ```{r}
 
